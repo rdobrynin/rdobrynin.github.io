@@ -14,12 +14,12 @@ sidebar:
 
     # Sidebar links
     email: roman.dobrynin@gmail.com
-  
+
     timezone: Europe/Tallinn # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
     website: https://rdobrynin.github.io/ # Include the full website URL, including "http://" or "https://".
-    linkedin: https://www.linkedin.com/in/rdobrynin/
-    github: https://github.com/rdobrynin
+    linkedin: rdobrynin
+    github: rdobrynin
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     mastodon:  # Please include your full Mastodon link here.
@@ -48,119 +48,154 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Proven track record in product development, process improvement and complex code problem-solving, with a strong focus on quality, safety code writing. I have a strong background in backend development, with a focus on NodeJS, ExpressJS, and NestJS. I am a strong advocate for clean, maintainable code and I have a passion for learning new technologies and frameworks.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Management
+        university: Technical University of Kaliningrad
+        time: 1994 - 1998
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Production Management
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: Jan 2023 - Jul 2024
+        company: UNITH • Barcelona, Spain
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+            - Designed microservice architecture on AWS via Terraform using RabbitMQ and configured CI/CD for various microservices
+            - Developed and launched API service based on NestJS, PostgreSQL to create "head talks avatars" for customers
+            - Developed Fronted SPA ReactJS project to create "Head Talks avatars" using RxJS reducer middleware
+            - Cooking  AWS, EKS, CI/CD on GitLab
+      - role: NodeJs Backend Developer
+        time: Aug 2021 - Sep 2022
+        company: Fudy OÜ • Tallinn, Estonia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Created payment microservice based on NestJS and Nats message queue
+            - Implemented payment service with EveryPay payment provider
+            - Implemented business logic to calculate invoices for couriers and restaurants
+      - role: Product Lead Engineer
+        time: Oct 2019 - Jul 2021
+        company: Paxful • Tallinn, Estonia
+        details: |
+            - Implemented Paxful Pay service to integrate feature, customer can use Paxful Wallet or create one on the spot. They can also use any crypto wallet to make their payment
+            - Implemented ATM Paxful service to find ATM's on google map around world
+            - Used PHP 7.4, Kafka, PostgreSQL, Redis, ReactJS, NodeJS
+      - role: FullStack Developer
+        time: Oct 2016 - Oct 2019
+        company: Hello Mobile Inc. (True) • Tallinn, Estonia
+        details: |
+          - Implemented Social Media Network based on geoLocation, where users can see friends on locations (visual map - Google map), share photos, videos
+          - Implemented features based on JAVA Spring, Hibernate ORM, PotgreSQL
+          - Used video transcoding on AWS, Lamdas, AWS S3 - serverless technology
+          - AWS solutions
+          - FE Angular Admin panels
+
+      - role: Senior FrontEnd Developer
+        time: May 2015 - Aug 2016
+        company: HeBS Digital • Tallinn, Estonia
+        details: |
+          - Hotel Reservation Engine development
+          - JS/PHP
+          - Smarty
+
+      - role: Web Developer
+        time: Aug 2013 - Apr 2015
+        company: Brilliant Solutions OÜ • Tallinn, Estonia
+        details: |
+          - Drupal CRM, landing pages, websites, UI/U
+          - Jquery, requireJS, PHP
+          - Codeigniter, Laravel
+
+      - role: PHP Developer, FE developer
+        time: 2002 - Aug 2013
+        company: ---
+        details: |
+          Deep historical exp:
+          - PHP, MySQL, Web sites
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: OCR certificate (Oxford & Cambridge certification) "IT Literacy and Technology".
+          start: 2000
+          end: 2001
+          organization: Oxford Cambridge and RSA Examinations
+          credentialid: 8182581/210177
+          credentialurl: https://www.ocr.org.uk/administration/certificates/
+          credentialname: OCR
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Linux, Hardware, Networks
+        - name: Meta Back-End Development
+          start: 2022
+          end: 2022
+          organization: Meta
+          credentialid: CYHQA8W54RLM
+          credentialurl: https://www.coursera.org/account/accomplishments/verify/CYHQA8W54RLM?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course
+          credentialname: Meta
+          details: |
+            Distinguish between front-end, back-end, and full-stack developers.
+            Explore the concepts that underpin how the internet works.
+        - name: GIT - Mastering Version Control System
+          start: 2022
+          end: 2022
+          organization: Meta
+          credentialid: ZYMPAPHSJ4D2
+          credentialurl: https://www.coursera.org/account/accomplishments/verify/ZYMPAPHSJ4D2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course
+          credentialname: Meta
+          details: |
+            Implement Version Control systems.
+            Use a GitHub repository. Create a GitHub repository.
+            Navigate and configure using the command line .   
+            Manage code revisions.
+        - name: NestJS The Complete Developer's Guide
+          start: 2022
+          end: 2022
+          organization: Udemy
+          credentialid: UC-b1fc3b84-0931-4e3b-8278-24a36d26c673
+          credentialurl: https://www.udemy.com/certificate/UC-b1fc3b84-0931-4e3b-8278-24a36d26c673/
+          credentialname: Udemy
+          details: |
+            Deploy a feature-complete app to production.
+            Write integration and unit tests to ensure your code is working.
+            Use an API client to manually test your app.
+            Make your code more reusable and testable with dependency injection.
+            Get a behind-the-scenes understanding of NestJS.
+            Understand Nest's special request-response cycle.
+            Use decorators to dramatically simplify your code.
+            Build authentication and permissions systems from scratch.
+            Automatically validate data included with incoming requests
+            Apply structure to your code with Typescript.
+            Tie different types of data together with TypeORM relationships.
+            Use Guards to prevent unauthorized users from gaining access to sensitive data.
+            Model your app's data using TypeORM entities.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+        - name: Node.js, Express, MongoDB & More The Complete Bootcamp
+          start: 2022
+          end: 2022
+          organization: Udemy
+          credentialid: UC-e62f581b-9f3b-4e70-8dc8-4997a3a6ab51
+          credentialurl: https://www.udemy.com/certificate/UC-e62f581b-9f3b-4e70-8dc8-4997a3a6ab51/
+          credentialname: Udemy
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Master the entire modern back-end stack: Node, Express, MongoDB and Mongoose (MongoDB JS driver).
+            Build a fast, scalable, feature-rich RESTful API (includes filters, sorts, pagination, and much more).
+            CRUD operations with MongoDB and Mongoose.
+            How to work with data in NoSQL databases (including geospatial data).
+            Security: encryption, sanitization, rate limiting, etc.
+            Credit card payments with Stripe.
+            Deploy the final application to production (including a Git crash-course).
+            Build a complete, beautiful & real-world application from start to finish (API and server-side rendered website).
+            Learn how Node really works behind the scenes: event loop, blocking vs non-blocking code, streams, modules, etc.
+            Deep dive into mongoose (including all advanced features).
+            Advanced authentication and authorization (including password reset).
+            Server-side website rendering with Pug templates.
+            Sending emails & uploading files.
+            Downloadable videos, code and design assets for projects.
+        
+        
 
 projects:
     title: Projects
@@ -189,68 +224,61 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Here is my some publications
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: How writing Tests affects you to write cod
+        link: "https://www.linkedin.com/pulse/how-writing-tests-affects-you-write-code-roman-dobrynin/?trackingId=0b5Cxw6YTOqNnbwtp3SLVQ%3D%3D"
+        authors: Roman Dobrynin
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: NodeJS & NestJS & ExpressJS
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Relation Databases PostgreSQL, MySQL
+        level: 80%
+
+      - name: Javascript & TS
         level: 98%
 
-      - name: Angular
+      - name: RectJS
+        level: 70%
+
+      - name: AWS & Terraform & Cloud solutions
+        level: 80%
+
+      - name: Gitlab CI/CD cooking
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Github CI/CD cooking
+        level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: PHP & Laravel
+        level: 80%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

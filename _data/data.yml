@@ -119,12 +119,12 @@ experiences:
 certifications:
       title: Certifications
       list:
-        - name: OCR certificate (Oxford & Cambridge certification) "IT Literacy and Technology".
+        - name: OCR certificate (Oxford & Cambridge certification) "IT Literacy".
           start: 2000
           end: 2001
           organization: Oxford Cambridge and RSA Examinations
           credentialid: 8182581/210177
-          credentialurl: https://www.ocr.org.uk/administration/certificates/
+          credentialurl: www.ocr.org.uk/administration/certificates/
           credentialname: OCR
           details: |
             Linux, Hardware, Networks
@@ -143,7 +143,7 @@ certifications:
           end: 2022
           organization: Meta
           credentialid: ZYMPAPHSJ4D2
-          credentialurl: https://www.coursera.org/account/accomplishments/verify/ZYMPAPHSJ4D2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course
+          credentialurl: /www.coursera.org/account/accomplishments/verify/ZYMPAPHSJ4D2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course
           credentialname: Meta
           details: |
             Implement Version Control systems.
@@ -155,7 +155,7 @@ certifications:
           end: 2022
           organization: Udemy
           credentialid: UC-b1fc3b84-0931-4e3b-8278-24a36d26c673
-          credentialurl: https://www.udemy.com/certificate/UC-b1fc3b84-0931-4e3b-8278-24a36d26c673/
+          credentialurl: www.udemy.com/certificate/UC-b1fc3b84-0931-4e3b-8278-24a36d26c673/
           credentialname: Udemy
           details: |
             Deploy a feature-complete app to production.
@@ -177,7 +177,7 @@ certifications:
           end: 2022
           organization: Udemy
           credentialid: UC-e62f581b-9f3b-4e70-8dc8-4997a3a6ab51
-          credentialurl: https://www.udemy.com/certificate/UC-e62f581b-9f3b-4e70-8dc8-4997a3a6ab51/
+          credentialurl: www.udemy.com/certificate/UC-e62f581b-9f3b-4e70-8dc8-4997a3a6ab51/
           credentialname: Udemy
           details: |
             Master the entire modern back-end stack: Node, Express, MongoDB and Mongoose (MongoDB JS driver).

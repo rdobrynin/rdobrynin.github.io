@@ -194,6 +194,18 @@ certifications:
             Server-side website rendering with Pug templates.
             Sending emails & uploading files.
             Downloadable videos, code and design assets for projects.
+
+        - name: SQL and PostgreSQL; The Complete Developer's Guide
+          start: 2025
+          end: 2025
+          organization: Udemy
+          credentialid: UC-012ead8b-a7fe-4d5d-8dee-9558133c3ccb
+          credentialurl: https://www.udemy.com/certificate/UC-012ead8b-a7fe-4d5d-8dee-9558133c3ccb/
+          credentialname: Udemy
+          details: |
+            Design patterns, Database queries, security, replica, complex queries, database optimization
+        
+        
         
         
 

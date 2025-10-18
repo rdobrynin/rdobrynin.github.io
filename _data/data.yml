@@ -234,6 +234,16 @@ certifications:
           credentialname: Node.js (Intermediate) Certificate
           details: |
             Understand the concepts behind an Event-Driven Architecture and Concurrency.
+
+        - name: Problem Solving (Basic) Certificate
+          start: 18 Oct 2025
+          end: 18 Oct 2025
+          organization: Hackerrank
+          credentialid: 12a932c07af4
+          credentialurl: hackerrank.com/certificates/12a932c07af4
+          credentialname: Problem Solving (Basic) Certificate
+          details: |
+            It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching).
         
         
         

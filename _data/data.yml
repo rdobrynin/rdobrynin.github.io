@@ -204,6 +204,7 @@ certifications:
           credentialname: Udemy
           details: |
             Design patterns, Database queries, security, replica, complex queries, database optimization
+
         - name: JavaScript Certificate
           start: 18 Oct 2025
           end: 18 Oct 2025
@@ -213,7 +214,7 @@ certifications:
           credentialname: JavaScript (Basic) Certificate
           details: |
             It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.
-                - name: JavaScript Certificate
+
         - name: SQL Certificate
           start: 18 Oct 2025
           end: 18 Oct 2025
@@ -223,6 +224,16 @@ certifications:
           credentialname: SQL (Basic) Certificate
           details: |
             It includes simple queries, relationships, and aggregators.
+
+        - name: Node.js (Intermediate) Certificate
+          start: 18 Oct 2025
+          end: 18 Oct 2025
+          organization: Hackerrank
+          credentialid: 52c9cef67e1d
+          credentialurl: hackerrank.com/certificates/52c9cef67e1d
+          credentialname: Node.js (Intermediate) Certificate
+          details: |
+            Understand the concepts behind an Event-Driven Architecture and Concurrency.
         
         
         

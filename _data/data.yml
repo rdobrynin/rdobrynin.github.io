@@ -213,6 +213,16 @@ certifications:
           credentialname: JavaScript (Basic) Certificate
           details: |
             It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.
+                - name: JavaScript Certificate
+        - name: SQL Certificate
+          start: 18 Oct 2025
+          end: 18 Oct 2025
+          organization: Hackerrank
+          credentialid: 4c6332ccfef1
+          credentialurl: hackerrank.com/certificates/36fb677dd5d6
+          credentialname: SQL (Basic) Certificate
+          details: |
+            It includes simple queries, relationships, and aggregators.
         
         
         

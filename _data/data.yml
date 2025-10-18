@@ -204,6 +204,15 @@ certifications:
           credentialname: Udemy
           details: |
             Design patterns, Database queries, security, replica, complex queries, database optimization
+        - name: JavaScript Certificate
+          start: 18 Oct 2025
+          end: 18 Oct 2025
+          organization: Hackerrank
+          credentialid: 4c6332ccfef1
+          credentialurl: https://www.hackerrank.com/certificates/4c6332ccfef1
+          credentialname: JavaScript (Basic) Certificate
+          details: |
+            It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.
         
         
         

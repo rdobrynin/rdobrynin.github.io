@@ -244,6 +244,16 @@ certifications:
           credentialname: Problem Solving (Basic) Certificate
           details: |
             It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching).
+
+        - name: SQL (Intermediate) Certificate
+          start: 18 Oct 2025
+          end: 18 Oct 2025
+          organization: Hackerrank
+          credentialid: 415b83a8649a
+          credentialurl: hackerrank.com/certificates/415b83a8649a
+          credentialname: SQL (Intermediate) Certificate
+          details: |
+            It includes complex joins, unions, and sub-queries..
         
         
         

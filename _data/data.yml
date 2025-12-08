@@ -308,7 +308,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: NodeJS & NestJS & ExpressJS
+      - name: NodeJS & NestJS, Koa
         level: 98%
 
       - name: Relation Databases PostgreSQL, MySQL

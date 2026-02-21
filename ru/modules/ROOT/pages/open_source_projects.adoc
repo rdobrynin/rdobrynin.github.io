@@ -1,0 +1,6 @@
+== Cluster-ready rate limiting module — 2025
+
+Модуль ограничения скорости для NestJS с поддержкой Redis и множеством стратегий, готовый к работе в кластере.
+
+* link:https://www.npmjs.com/package/nestjs-cluster-throttle[nestjs-cluster-throttle
+, window=_blank]

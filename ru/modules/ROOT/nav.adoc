@@ -1,0 +1,6 @@
+* xref:index.adoc[Обо мне]
+* xref:experience.adoc[Опыт работы]
+* xref:career.adoc[Карьера]
+* xref:skills.adoc[Навыки]
+* xref:open_source_projects.adoc[Open Source проекты]
+* xref:education.adoc[Образование]

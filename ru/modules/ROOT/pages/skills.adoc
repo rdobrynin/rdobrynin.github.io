@@ -1,25 +1,25 @@
-= Skills & Tech Stack
+= Навыки и стек технологий
 
-== Backend
+== Бэкенд
 `TypeScript` `Node.js` `NestJS` `Koa` `PHP` `Laravel` `Java Spring` `Spring Boot`
 
-== Databases
+== Базы данных
 `PostgreSQL` `PostGIS` `Redis` `ElasticSearch` `Redshift` `MySQL`
 
-== Message Brokers
+== Брокеры сообщений
 `RabbitMQ` `Apache Kafka` `NATS`
 
-== Cloud & Infrastructure
+== Облако и инфраструктура
 `AWS EC2` `AWS RDS` `AWS S3` `AWS Lambda` `AWS Fargate` `AWS CDN` `AWS Route53` `Digital Ocean` `Docker` `Terraform` `Ansible`
 
-== CI/CD & Dev Tools
+== CI/CD и инструменты
 `GitLab CI/CD` `Jenkins` `Git` `Linux` `Atlassian Jira`
 
-== Frontend
+== Фронтенд
 `ReactJS` `Angular` `Redux/RxJS` `HTML` `CSS` `WebSocket`
 
-== Architecture & Methodology
-`Microservices` `Event-Driven Architecture` `Domain-Driven Design` `C4 Model` `UML` `REST API` `Agile (Scrum)` `OKR`
+== Архитектура и методологии
+`Микросервисы` `Event-Driven Architecture` `Domain-Driven Design` `C4 Model` `UML` `REST API` `Agile (Scrum)` `OKR`
 
-== Security
+== Безопасность
 `GDPR` `OWASP Top 10`

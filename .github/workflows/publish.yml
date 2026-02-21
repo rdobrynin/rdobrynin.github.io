@@ -39,15 +39,15 @@ jobs:
       - name: Add .nojekyll
         run: touch build/site/.nojekyll
 
-      - name: Add root index.html redirect
+      - name: Add root index.html redirect to EN
         run: |
           cat > build/site/index.html << 'HTML'
           <!DOCTYPE html>
           <html>
           <head>
             <meta charset="utf-8">
-            <meta http-equiv="refresh" content="0; url=cv/index.html">
-            <link rel="canonical" href="cv/index.html">
+            <meta http-equiv="refresh" content="0; url=en/index.html">
+            <link rel="canonical" href="en/index.html">
           </head>
           <body>Redirecting...</body>
           </html>

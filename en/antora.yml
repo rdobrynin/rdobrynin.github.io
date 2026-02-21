@@ -1,0 +1,11 @@
+name: en
+title: Roman Dobrynin CV — English
+version: ~
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    page-lang: en
+    page-lang-other-label: RU
+    page-lang-other-url: /ru/index.html

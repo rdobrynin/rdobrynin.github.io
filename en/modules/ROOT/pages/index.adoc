@@ -22,9 +22,9 @@
 
 == About
 
-Experienced engineer and Team Lead with *14+ years* specializing in high-load microservice systems, FinTech integrations ( billing payment providers - Strip / Everypay, and distributed team leadership up to 15 people.
+Experienced engineer and Team Lead with *14+ years* specializing in high-load microservice systems, FinTech integrations (payment gateways, ERP), and distributed team leadership up to 15 people.
 
-Passionate about Infrastructure as Code, Event-Driven Architecture, and Domain-Driven Design. I successfully lead teams from zero to production across European product companies.
+Passionate about Infrastructure as Code, Event-Driven Architecture, and Domain-Driven Design. I successfully lead teams from zero to production across European product companies. Open for relocation, have work permit in Estonia.
 
 [quote]
 ____
@@ -77,5 +77,5 @@ GDPR · OWASP Top 10 · Code Review · Architecture Review · Technical document
 
 [cols="1,1,1",frame=none,grid=none,stripes=none]
 |===
-| *Russian* — Native language | *English* — B2 Upper-intermediate | *Estonian* — A2 Elementary
+| *Russian* — Native Language | *English* — B2 Upper-intermediate | *Estonian* — A2 Elementary
 |===

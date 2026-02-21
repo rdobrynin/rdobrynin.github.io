@@ -1,269 +1,226 @@
 <!DOCTYPE html>
-<html lang="en" class="dark" style="color-scheme:dark">
+<html lang="{{lookup page.attributes "lang"}}" class="dark" style="color-scheme:dark">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{#if page.title}}{{page.title}} — {{/if}}{{site.title}}</title>
-    <meta name="description" content="Roman Dobrynin — Team Lead / Solution Architect, Node.js, 14+ years">
-    <script>
-        (function(){
-            var t = localStorage.getItem('cv-theme') || 'dark';
-            document.documentElement.className = t;
-            document.documentElement.style.colorScheme = t;
-        })();
-    </script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: {
-                        mono:    ['Montserrat', 'sans-serif'],
-                        serif:   ['Montserrat', 'sans-serif'],
-                        display: ['Montserrat', 'sans-serif'],
-                    },
-                    animation: { 'fade-up': 'fadeUp 0.6s ease both' },
-                    keyframes: {
-                        fadeUp: {
-                            '0%':   { opacity: '0', transform: 'translateY(18px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        },
-                    },
-                },
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{#if page.title}}{{page.title}} — {{/if}}{{site.title}}</title>
+  <meta name="description" content="Roman Dobrynin — Team Lead / Solution Architect, Node.js, 14+ years">
+  <script>
+    (function(){
+      var t = localStorage.getItem('cv-theme') || 'dark';
+      document.documentElement.className = t;
+      document.documentElement.style.colorScheme = t;
+    })();
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            mono:    ['Montserrat', 'sans-serif'],
+            serif:   ['Montserrat', 'sans-serif'],
+            display: ['Montserrat', 'sans-serif'],
+          },
+          animation: { 'fade-up': 'fadeUp 0.6s ease both' },
+          keyframes: {
+            fadeUp: {
+              '0%':   { opacity: '0', transform: 'translateY(18px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
             },
-        }
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet">
-    <style>
-        .dark  { --bg:#0d0f12; --bg2:#13161b; --border:rgba(255,255,255,0.07); --text:#e8eaf0; --dim:#6b7280; --muted:#9ca3af; --accent:#7cffd4; --tag-bg:rgba(124,255,212,0.08); --tag-border:rgba(124,255,212,0.2); --line:rgba(255,255,255,0.06); --card:#13161b; --toggle:#1b1f27; }
-        .light { --bg:#f5f3ee; --bg2:#ffffff; --border:rgba(0,0,0,0.08); --text:#1a1a2e; --dim:#6b6b7b; --muted:#555566; --accent:#006b4f; --tag-bg:rgba(0,107,79,0.07); --tag-border:rgba(0,107,79,0.2); --line:rgba(0,0,0,0.08); --card:#ffffff; --toggle:#e8e5df; }
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet">
+  <style>
+    .dark  { --bg:#0d0f12; --bg2:#13161b; --border:rgba(255,255,255,0.07); --text:#e8eaf0; --dim:#6b7280; --muted:#9ca3af; --accent:#7cffd4; --tag-bg:rgba(124,255,212,0.08); --tag-border:rgba(124,255,212,0.2); --line:rgba(255,255,255,0.06); --card:#13161b; --toggle:#1b1f27; }
+    .light { --bg:#f5f3ee; --bg2:#ffffff; --border:rgba(0,0,0,0.08); --text:#1a1a2e; --dim:#6b6b7b; --muted:#555566; --accent:#006b4f; --tag-bg:rgba(0,107,79,0.07); --tag-border:rgba(0,107,79,0.2); --line:rgba(0,0,0,0.08); --card:#ffffff; --toggle:#e8e5df; }
 
-        body { background:var(--bg); color:var(--text); font-family:'Montserrat',sans-serif; font-weight:300; transition:background .4s,color .4s; }
+    body { background:var(--bg); color:var(--text); font-family:'Montserrat',sans-serif; font-weight:300; transition:background .4s,color .4s; }
 
-        /* Mobile nav drawer */
-        #mobile-nav {
-            position: fixed; inset: 0; z-index: 50;
-            display: flex;
-            pointer-events: none;
-        }
-        #mobile-nav.open { pointer-events: all; }
+    /* Mobile nav drawer */
+    #mobile-nav { position:fixed; inset:0; z-index:50; display:flex; pointer-events:none; }
+    #mobile-nav.open { pointer-events:all; }
+    #nav-backdrop { position:absolute; inset:0; background:rgba(0,0,0,0.6); backdrop-filter:blur(4px); opacity:0; transition:opacity .3s ease; }
+    #mobile-nav.open #nav-backdrop { opacity:1; }
+    #nav-drawer { position:relative; width:240px; height:100%; background:var(--bg2); border-right:1px solid var(--border); padding:5rem 1.5rem 2rem; transform:translateX(-100%); transition:transform .3s cubic-bezier(.4,0,.2,1); z-index:1; }
+    #mobile-nav.open #nav-drawer { transform:translateX(0); }
 
-        #nav-backdrop {
-            position: absolute; inset: 0;
-            background: rgba(0,0,0,0.6);
-            backdrop-filter: blur(4px);
-            opacity: 0;
-            transition: opacity .3s ease;
-        }
-        #mobile-nav.open #nav-backdrop { opacity: 1; }
+    /* Hamburger */
+    #hamburger { position:fixed; top:1.1rem; left:1rem; z-index:60; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:5px; width:2.2rem; height:2.2rem; background:var(--toggle); border:1px solid var(--border); border-radius:6px; cursor:pointer; padding:0; transition:border-color .2s; }
+    #hamburger:hover { border-color:var(--accent); }
+    #hamburger span { display:block; width:16px; height:1.5px; background:var(--muted); border-radius:2px; transition:transform .3s, opacity .3s, background .2s; transform-origin:center; }
+    #hamburger.open span:nth-child(1) { transform:translateY(6.5px) rotate(45deg); background:var(--accent); }
+    #hamburger.open span:nth-child(2) { opacity:0; }
+    #hamburger.open span:nth-child(3) { transform:translateY(-6.5px) rotate(-45deg); background:var(--accent); }
 
-        #nav-drawer {
-            position: relative;
-            width: 240px;
-            height: 100%;
-            background: var(--bg2);
-            border-right: 1px solid var(--border);
-            padding: 5rem 1.5rem 2rem;
-            transform: translateX(-100%);
-            transition: transform .3s cubic-bezier(.4,0,.2,1);
-            z-index: 1;
-        }
-        #mobile-nav.open #nav-drawer { transform: translateX(0); }
+    /* Nav links */
+    .nav-item a { font-size:.75rem; color:var(--muted); font-family:'Montserrat',sans-serif; letter-spacing:.04em; padding:.4rem 0; display:block; transition:color .2s; text-decoration:none; }
+    .nav-item a:hover, .nav-item a.is-current { color:var(--accent); }
 
-        /* Hamburger */
-        #hamburger { position:fixed; top:1.1rem; left:1rem; z-index:60;
-            display:flex; flex-direction:column; justify-content:center; align-items:center;
-            gap:5px; width:2.2rem; height:2.2rem;
-            background:var(--toggle); border:1px solid var(--border);
-            border-radius:6px; cursor:pointer; padding:0;
-            transition:border-color .2s;
-        }
-        #hamburger:hover { border-color:var(--accent); }
-        #hamburger span {
-            display:block; width:16px; height:1.5px;
-            background:var(--muted); border-radius:2px;
-            transition:transform .3s, opacity .3s, background .2s;
-            transform-origin:center;
-        }
-        #hamburger.open span:nth-child(1) { transform:translateY(6.5px) rotate(45deg); background:var(--accent); }
-        #hamburger.open span:nth-child(2) { opacity:0; }
-        #hamburger.open span:nth-child(3) { transform:translateY(-6.5px) rotate(-45deg); background:var(--accent); }
+    /* Top-right controls */
+    #controls { position:fixed; top:1rem; right:1rem; z-index:100; display:flex; align-items:center; gap:.5rem; }
 
-        .nav-item a { font-size:.75rem; color:var(--muted); font-family:'Montserrat',sans-serif; letter-spacing:.04em; padding:.4rem 0; display:block; transition:color .2s; text-decoration:none; }
-        .nav-item a:hover, .nav-item a.is-current { color:var(--accent); }
+    /* Lang switcher */
+    #lang-switch { background:var(--toggle); border:1px solid var(--border); border-radius:50px; padding:.35rem .85rem; cursor:pointer; display:flex; align-items:center; gap:.35rem; font-family:'Montserrat',sans-serif; font-size:.68rem; color:var(--muted); letter-spacing:.08em; text-decoration:none; transition:all .3s; backdrop-filter:blur(12px); font-weight:600; }
+    #lang-switch:hover { border-color:var(--accent); color:var(--accent); }
 
-        #cv-toggle { position:fixed; top:1rem; right:1rem; z-index:100; background:var(--toggle); border:1px solid var(--border); border-radius:50px; padding:.35rem .85rem; cursor:pointer; display:flex; align-items:center; gap:.45rem; font-family:'Montserrat',sans-serif; font-size:.68rem; color:var(--muted); letter-spacing:.05em; transition:all .3s; backdrop-filter:blur(12px); }
-        #cv-toggle:hover { border-color:var(--accent); color:var(--accent); }
-        #cv-toggle .icon { font-size:1rem; transition:transform .5s; }
-        #cv-toggle:hover .icon { transform:rotate(20deg); }
+    /* Theme toggle */
+    #cv-toggle { background:var(--toggle); border:1px solid var(--border); border-radius:50px; padding:.35rem .85rem; cursor:pointer; display:flex; align-items:center; gap:.45rem; font-family:'Montserrat',sans-serif; font-size:.68rem; color:var(--muted); letter-spacing:.05em; transition:all .3s; backdrop-filter:blur(12px); }
+    #cv-toggle:hover { border-color:var(--accent); color:var(--accent); }
+    #cv-toggle .icon { font-size:1rem; transition:transform .5s; }
+    #cv-toggle:hover .icon { transform:rotate(20deg); }
 
-        .adoc h2 { font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.1rem; letter-spacing:-.01em; color:var(--text); margin-top:2.5rem; padding-bottom:.5rem; border-bottom:1px solid var(--line); }
-        .adoc h3 { font-family:'Montserrat',sans-serif; font-weight:800; font-size:.95rem; color:var(--text); margin-top:1.8rem; margin-bottom:.5rem; }
-        .adoc p  { font-size:.83rem; line-height:1.75; color:var(--muted); margin-bottom:.7rem; }
-        .adoc a  { color:var(--accent); text-decoration:none; }
-        .adoc a:hover { text-decoration:underline; }
-        .adoc strong { color:var(--text); font-weight:600; }
-        .adoc em { color:var(--accent); font-style:italic; }
-        .adoc hr { border:none; border-top:1px solid var(--line); margin:2rem 0; }
-        .adoc ul { list-style:none; padding-left:1.2rem; }
-        .adoc ul li { position:relative; font-size:.82rem; color:var(--muted); line-height:1.7; margin-bottom:.35rem; }
-        .adoc ul li::before { content:'→'; position:absolute; left:-1.2rem; color:var(--accent); font-size:.7rem; }
-        .adoc code { background:var(--tag-bg); border:1px solid var(--tag-border); color:var(--accent); font-family:'Montserrat',sans-serif; font-size:.68rem; padding:.15rem .45rem; border-radius:3px; transition:all .2s; cursor:default; }
-        .adoc code:hover { background:var(--accent); color:var(--bg); border-color:var(--accent); }
-        .adoc .quoteblock { border-left:2px solid var(--accent); padding:.5rem 0 .5rem 1.5rem; margin:1.5rem 0; }
-        .adoc .quoteblock blockquote, .adoc .quoteblock blockquote p { font-size:.82rem; color:var(--dim); font-style:italic; }
-        .adoc table { width:100%; border:none; }
-        .adoc table td { border:none !important; background:transparent !important; padding:.35rem !important; vertical-align:top; }
-        .adoc .exampleblock > .content { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:1rem 1.2rem; transition:border-color .2s; margin-bottom:.5rem; }
-        .adoc .exampleblock > .content:hover { border-color:var(--accent); }
-        .adoc .exampleblock > .content > .paragraph:first-child strong { display:block; font-size:.58rem; letter-spacing:.15em; text-transform:uppercase; color:var(--accent) !important; margin-bottom:.4rem; }
+    /* AsciiDoc */
+    .adoc h2 { font-family:'Montserrat',sans-serif; font-weight:800; font-size:1.1rem; letter-spacing:-.01em; color:var(--text); margin-top:2.5rem; padding-bottom:.5rem; border-bottom:1px solid var(--line); }
+    .adoc h3 { font-family:'Montserrat',sans-serif; font-weight:800; font-size:.95rem; color:var(--text); margin-top:1.8rem; margin-bottom:.5rem; }
+    .adoc p  { font-size:.83rem; line-height:1.75; color:var(--muted); margin-bottom:.7rem; }
+    .adoc a  { color:var(--accent); text-decoration:none; }
+    .adoc a:hover { text-decoration:underline; }
+    .adoc strong { color:var(--text); font-weight:600; }
+    .adoc em { color:var(--accent); font-style:italic; }
+    .adoc hr { border:none; border-top:1px solid var(--line); margin:2rem 0; }
+    .adoc ul { list-style:none; padding-left:1.2rem; }
+    .adoc ul li { position:relative; font-size:.82rem; color:var(--muted); line-height:1.7; margin-bottom:.35rem; }
+    .adoc ul li::before { content:'→'; position:absolute; left:-1.2rem; color:var(--accent); font-size:.7rem; }
+    .adoc code { background:var(--tag-bg); border:1px solid var(--tag-border); color:var(--accent); font-family:'Montserrat',sans-serif; font-size:.68rem; padding:.15rem .45rem; border-radius:3px; transition:all .2s; cursor:default; }
+    .adoc code:hover { background:var(--accent); color:var(--bg); border-color:var(--accent); }
+    .adoc .quoteblock { border-left:2px solid var(--accent); padding:.5rem 0 .5rem 1.5rem; margin:1.5rem 0; }
+    .adoc .quoteblock blockquote, .adoc .quoteblock blockquote p { font-size:.82rem; color:var(--dim); font-style:italic; }
+    .adoc table { width:100%; border:none; }
+    .adoc table td { border:none !important; background:transparent !important; padding:.35rem !important; vertical-align:top; }
+    .adoc .exampleblock > .content { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:1rem 1.2rem; transition:border-color .2s; margin-bottom:.5rem; }
+    .adoc .exampleblock > .content:hover { border-color:var(--accent); }
+    .adoc .exampleblock > .content > .paragraph:first-child strong { display:block; font-size:.58rem; letter-spacing:.15em; text-transform:uppercase; color:var(--accent) !important; margin-bottom:.4rem; }
 
-        @media (min-width: 768px) {
-            #hamburger { display: none; }
-            #mobile-nav { display: none; }
-        }
-    </style>
+    @media (min-width:768px) { #hamburger { display:none; } #mobile-nav { display:none; } }
+  </style>
 </head>
 <body>
 
-<!-- Hamburger (mobile only) -->
-<button id="hamburger" aria-label="Open navigation" aria-expanded="false">
+  <!-- Hamburger (mobile only) -->
+  <button id="hamburger" aria-label="Open navigation" aria-expanded="false">
     <span></span><span></span><span></span>
-</button>
+  </button>
 
-<!-- Mobile nav drawer -->
-<div id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation">
+  <!-- Mobile nav drawer -->
+  <div id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation">
     <div id="nav-backdrop"></div>
     <div id="nav-drawer">
-        <p style="font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-family:'Montserrat',sans-serif;margin-bottom:1.2rem">Navigation</p>
-        {{#if page.navigation}}
-            <ul style="list-style:none;padding:0;margin:0">
-                {{#each page.navigation}}
-                    <li class="nav-item">
-                        <a href="{{url}}">{{content}}</a>
-                        {{#if items}}
-                            <ul style="list-style:none;padding-left:.8rem;margin:0">
-                                {{#each items}}
-                                    <li class="nav-item"><a href="{{url}}">{{content}}</a></li>
-                                {{/each}}
-                            </ul>
-                        {{/if}}
-                    </li>
-                {{/each}}
-            </ul>
-        {{/if}}
+      <p style="font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-family:'Montserrat',sans-serif;margin-bottom:1.2rem">Navigation</p>
+      {{#if page.navigation}}
+      <ul style="list-style:none;padding:0;margin:0">
+        {{#each page.navigation}}
+        <li class="nav-item">
+          <a href="{{url}}">{{content}}</a>
+          {{#if items}}
+          <ul style="list-style:none;padding-left:.8rem;margin:0">
+            {{#each items}}
+            <li class="nav-item"><a href="{{url}}">{{content}}</a></li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </li>
+        {{/each}}
+      </ul>
+      {{/if}}
         <img style="overflow: hidden; border-radius: 50%; margin-top: 20px" width="100px" src="https://img.hhcdn.ru/photo/800001174.png?t=1771756006&h=dtK372C-a7-9KgZ7b9-9qg" alt="avatar">
     </div>
-</div>
+  </div>
 
-<!-- Theme toggle -->
-<button id="cv-toggle" aria-label="Toggle theme">
-    <span class="icon">☽</span>
-    <span id="cv-toggle-label">dark</span>
-</button>
+  <!-- Top-right: lang switcher + theme toggle -->
+  <div id="controls">
+    <a id="lang-switch" href="{{lookup page.attributes "lang-other-url"}}">{{lookup page.attributes "lang-other-label"}}</a>
+    <button id="cv-toggle" aria-label="Toggle theme">
+      <span class="icon">☽</span>
+      <span id="cv-toggle-label">dark</span>
+    </button>
+  </div>
 
-<!-- Page layout -->
-<div class="flex min-h-screen max-w-5xl mx-auto px-4 sm:px-8">
+  <!-- Page layout -->
+  <div class="flex min-h-screen max-w-5xl mx-auto px-4 sm:px-8">
 
     <!-- Desktop sidebar -->
     <aside class="hidden md:block w-48 shrink-0 pt-16 pr-8 border-r" style="border-color:var(--line)">
-        <p class="text-xs tracking-widest uppercase mb-6" style="color:var(--accent);font-family:'Montserrat',sans-serif">Navigation</p>
-        <nav>
-            {{#if page.navigation}}
-                <ul class="space-y-1" style="list-style:none;padding:0;margin:0">
-                    {{#each page.navigation}}
-                        <li class="nav-item">
-                            <a href="{{url}}">{{content}}</a>
-                            {{#if items}}
-                                <ul style="list-style:none;padding-left:.8rem;margin:0">
-                                    {{#each items}}
-                                        <li class="nav-item"><a href="{{url}}">{{content}}</a></li>
-                                    {{/each}}
-                                </ul>
-                            {{/if}}
-                        </li>
-                    {{/each}}
-                </ul>
+      <p class="text-xs tracking-widest uppercase mb-6" style="color:var(--accent);font-family:'Montserrat',sans-serif">
+        {{#if (eq (lookup page.attributes "lang") "ru")}}Навигация{{else}}Navigation{{/if}}
+      </p>
+      <nav>
+        {{#if page.navigation}}
+        <ul class="space-y-1" style="list-style:none;padding:0;margin:0">
+          {{#each page.navigation}}
+          <li class="nav-item">
+            <a href="{{url}}">{{content}}</a>
+            {{#if items}}
+            <ul style="list-style:none;padding-left:.8rem;margin:0">
+              {{#each items}}
+              <li class="nav-item"><a href="{{url}}">{{content}}</a></li>
+              {{/each}}
+            </ul>
             {{/if}}
-        </nav>
-        <img style="overflow: hidden; border-radius: 50%; margin-top: 20px" src="https://img.hhcdn.ru/photo/800001174.png?t=1771756006&h=dtK372C-a7-9KgZ7b9-9qg" alt="avatar">
+          </li>
+          {{/each}}
+        </ul>
+        {{/if}}
+      </nav>
+        <img style="overflow: hidden; border-radius: 50%; margin-top: 20px" width="100px" src="https://img.hhcdn.ru/photo/800001174.png?t=1771756006&h=dtK372C-a7-9KgZ7b9-9qg" alt="avatar">
     </aside>
 
     <!-- Content -->
     <main class="flex-1 min-w-0 py-16 pl-0 md:pl-12">
-        <article class="adoc animate-fade-up">
-            {{{page.contents}}}
-        </article>
-        <footer class="mt-16 pt-6 flex justify-between flex-wrap gap-4 text-xs" style="border-top:1px solid var(--line);color:var(--dim);font-family:'Montserrat',sans-serif">
-            <span>Roman Dobrynin · Updated Feb 2026</span>
-            <span>
+      <article class="adoc animate-fade-up">
+        {{{page.contents}}}
+      </article>
+      <footer class="mt-16 pt-6 flex justify-between flex-wrap gap-4 text-xs" style="border-top:1px solid var(--line);color:var(--dim);font-family:'Montserrat',sans-serif">
+        <span>Roman Dobrynin · 2026</span>
+        <span>
           <a href="https://github.com/rdobrynin" target="_blank" style="color:var(--accent)">github</a> ·
           <a href="https://linkedin.com/in/rdobrynin" target="_blank" style="color:var(--accent)">linkedin</a> ·
           <a href="https://t.me/rdobrynin" target="_blank" style="color:var(--accent)">telegram</a>
         </span>
-        </footer>
+      </footer>
     </main>
-</div>
+  </div>
 
-<script>
+  <script>
     // ── Theme toggle ─────────────────────────────────────────
     (function(){
-        var DARK='dark', LIGHT='light';
-        function saved(){ return localStorage.getItem('cv-theme')||DARK; }
-        function apply(t){
-            document.documentElement.className=t;
-            document.documentElement.style.colorScheme=t;
-            var icon=document.querySelector('#cv-toggle .icon');
-            var lbl=document.getElementById('cv-toggle-label');
-            if(icon) icon.textContent=t===DARK?'☽':'☀';
-            if(lbl)  lbl.textContent=t;
-        }
-        apply(saved());
-        document.getElementById('cv-toggle').addEventListener('click',function(){
-            var next=saved()===DARK?LIGHT:DARK;
-            localStorage.setItem('cv-theme',next);
-            apply(next);
-        });
+      var DARK='dark', LIGHT='light';
+      function saved(){ return localStorage.getItem('cv-theme')||DARK; }
+      function apply(t){
+        document.documentElement.className=t;
+        document.documentElement.style.colorScheme=t;
+        var icon=document.querySelector('#cv-toggle .icon');
+        var lbl=document.getElementById('cv-toggle-label');
+        if(icon) icon.textContent=t===DARK?'☽':'☀';
+        if(lbl)  lbl.textContent=t;
+      }
+      apply(saved());
+      document.getElementById('cv-toggle').addEventListener('click',function(){
+        var next=saved()===DARK?LIGHT:DARK;
+        localStorage.setItem('cv-theme',next);
+        apply(next);
+      });
     })();
 
     // ── Mobile nav drawer ────────────────────────────────────
     (function(){
-        var btn      = document.getElementById('hamburger');
-        var drawer   = document.getElementById('mobile-nav');
-        var backdrop = document.getElementById('nav-backdrop');
-        var isOpen   = false;
-
-        function open(){
-            isOpen = true;
-            drawer.classList.add('open');
-            btn.classList.add('open');
-            btn.setAttribute('aria-expanded','true');
-            document.body.style.overflow='hidden';
-        }
-        function close(){
-            isOpen = false;
-            drawer.classList.remove('open');
-            btn.classList.remove('open');
-            btn.setAttribute('aria-expanded','false');
-            document.body.style.overflow='';
-        }
-
-        btn.addEventListener('click', function(){ isOpen ? close() : open(); });
-        backdrop.addEventListener('click', close);
-
-        // Close on nav link click
-        drawer.querySelectorAll('a').forEach(function(a){
-            a.addEventListener('click', close);
-        });
-
-        // Close on Escape
-        document.addEventListener('keydown', function(e){
-            if(e.key==='Escape' && isOpen) close();
-        });
+      var btn=document.getElementById('hamburger');
+      var drawer=document.getElementById('mobile-nav');
+      var backdrop=document.getElementById('nav-backdrop');
+      var isOpen=false;
+      function open(){ isOpen=true; drawer.classList.add('open'); btn.classList.add('open'); btn.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; }
+      function close(){ isOpen=false; drawer.classList.remove('open'); btn.classList.remove('open'); btn.setAttribute('aria-expanded','false'); document.body.style.overflow=''; }
+      btn.addEventListener('click',function(){ isOpen?close():open(); });
+      backdrop.addEventListener('click',close);
+      drawer.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',close); });
+      document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&isOpen)close(); });
     })();
-</script>
+  </script>
 </body>
 </html>

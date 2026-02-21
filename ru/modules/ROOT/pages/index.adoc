@@ -1,81 +1,81 @@
-= Roman Dobrynin
+= Добрынин Роман Валерьевич
 
 ++++
 <div style="margin-bottom:3rem">
-  <p style="font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;font-family:'Montserrat',sans-serif">// résumé · 2026</p>
+  <p style="font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;font-family:'Montserrat',sans-serif">// резюме · 2026</p>
   <h1 style="font-family:'Montserrat',sans-serif;font-size:clamp(2.5rem,7vw,4.5rem);line-height:.95;letter-spacing:-.02em;color:var(--text);font-weight:400;margin:0">
-    Roman <em style="font-style:italic;color:var(--accent)">Dobrynin</em>
+    Роман <em style="font-style:italic;color:var(--accent)">Добрынин</em>
   </h1>
   <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:400;color:var(--dim);margin-top:1.2rem;letter-spacing:.04em">
-    Team Lead &amp; Solution Architect · Node.js · 14+ years
+    Team Lead &amp; Solution Architect · Node.js · 14+ лет опыта
   </p>
   <div style="display:flex;flex-wrap:wrap;gap:.4rem 1.8rem;margin-top:1.8rem;padding-top:1.8rem;border-top:1px solid var(--line)">
     <a href="mailto:roman.dobrynin@gmail.com" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>roman.dobrynin@gmail.com</a>
     <a href="https://t.me/rdobrynin" target="_blank" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>@rdobrynin</a>
     <a href="https://github.com/rdobrynin" target="_blank" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>github/rdobrynin</a>
     <a href="https://linkedin.com/in/rdobrynin" target="_blank" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>linkedin/rdobrynin</a>
-    <a href="https://set.ki/5YiHqvs" target="_blank" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>setka profile</a>
-    <span style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);font-family:'Montserrat',sans-serif"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>Saint Petersburg · 🇷🇺</span>
+    <a href="https://set.ki/5YiHqvs" target="_blank" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>setka профиль</a>
+    <span style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);font-family:'Montserrat',sans-serif"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>Санкт-Петербург · 🇷🇺</span>
   </div>
 </div>
 ++++
 
-== About
+== Обо мне
 
-Experienced engineer and Team Lead with *14+ years* specializing in high-load microservice systems, FinTech integrations ( billing payment providers - Strip / Everypay, and distributed team leadership up to 15 people.
+Опытный инженер и Team Lead с *14+ годами* опыта в разработке высоконагруженных систем. Специализируюсь на проектировании микросервисной архитектуры на Node.js, интеграции сложных FinTech-решений (биллинговые провайдеры stripe/everypay) и оптимизации распределённых систем.
 
-Passionate about Infrastructure as Code, Event-Driven Architecture, and Domain-Driven Design. I successfully lead teams from zero to production across European product companies.
+Успешно перевожу инфраструктуру на принципы IaC (Terraform/AWS), внедряю Event-Driven Architecture (EDA) и Domain-Driven Design (DDD). Имею опыт управления распределёнными командами до 15 человек и построения процессов разработки с нуля в европейских продуктовых компаниях.
 
 [quote]
 ____
-"I design reliable systems that solve business problems and scale effortlessly."
+«Проектирую надёжные системы, которые решают бизнес-задачи и легко масштабируются.»
 ____
 
-== Core Competencies
+== Ключевые компетенции
 
 [cols="1,1",frame=none,grid=none,stripes=none]
 |===
 a|
 ====
-*Architecture*
+*Архитектура*
 
-Microservices · Event-Driven (EDA) · Domain-Driven Design (DDD) · C4 Model · UML
+Микросервисы · Event-Driven (EDA) · Domain-Driven Design (DDD) · C4 Model · UML
 ====
 a|
 ====
-*Node.js Ecosystem*
+*Node.js экосистема*
 
-NestJS · Koa · TypeScript · Profiling & performance · REST · WebSocket
+NestJS · Koa · TypeScript · Профилирование · REST · WebSocket
 ====
 a|
 ====
-*Cloud & DevOps*
+*Облако и DevOps*
 
 AWS (EC2, RDS, S3, Lambda, Fargate) · Digital Ocean · Docker · Terraform · Ansible · GitLab CI/CD
 ====
 a|
 ====
-*Databases & Messaging*
+*Базы данных и брокеры*
 
 PostgreSQL · Redis · ElasticSearch · PostGIS · Redshift · RabbitMQ · Kafka · NATS
 ====
 a|
 ====
-*Leadership*
+*Управление командой*
 
-Teams up to 15 people · Agile (Scrum) · OKR · Distributed team management
+До 15 человек · Agile (Scrum) · OKR · Распределённые команды
 ====
 a|
 ====
-*Standards*
+*Стандарты*
 
-GDPR · OWASP Top 10 · Code Review · Architecture Review · Technical documentation
+GDPR · OWASP Top 10 · Code Review · Архитектурное ревью · Техническая документация
 ====
 |===
 
-== Languages
+== Языки
 
 [cols="1,1,1",frame=none,grid=none,stripes=none]
 |===
-| *Russian* — Native language | *English* — B2 Upper-intermediate | *Estonian* — A2 Elementary
+| *Русский* — Родной | *Английский* — B2 Upper-intermediate | *Эстонский* — A2
 |===

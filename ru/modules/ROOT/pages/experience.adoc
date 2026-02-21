@@ -1,0 +1,117 @@
+= Опыт работы
+
+Общий опыт — 14 лет 4 месяца
+
+== Nerdware OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Эстония · Июль 2024 — настоящее время · <span style="background:rgba(124,255,212,.12);border:1px solid rgba(124,255,212,.3);color:var(--accent);font-size:.58rem;padding:.15rem .5rem;border-radius:2px;letter-spacing:.05em">сейчас</span></p>
+++++
+
+*Ведущий разработчик / Архитектор решения*
+
+* Проектирование и реализация скрейпинг-сервиса с интеграцией AI (n8n, Claude AI) для автоматизации сбора данных — сократил ручной труд команды на *~70%*.
+* Выстраивание инфраструктуры на Digital Ocean с нуля: мониторинг, метрики, обеспечение uptime на уровне *99.5%*.
+* Интеграция внешних API и документирование архитектуры для передачи в поддержку.
+
+`Node.js` `NestJS` `Redis` `PostgreSQL` `ElasticSearch` `Digital Ocean`
+
+---
+
+== Unith
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Испания · unith.ai · Январь 2023 — Июль 2024 (1 год 7 мес)</p>
+++++
+
+*Руководитель группы разработки*
+
+* Руководство командой *5 человек* (бэкенд + фронтенд) — от MVP до продакшена.
+* Проектирование и внедрение микросервисной архитектуры на NestJS + RabbitMQ + AWS с горизонтальным масштабированием.
+* Перевод инфраструктуры на IaC (Terraform), стандартизация окружений, ускорение деплоя в *3 раза*.
+* Настройка GitLab CI/CD пайплайнов для автоматизации тестирования и деплоя.
+* Архитектурные ревью и code review; внедрение DDD в legacy-системы для борьбы с техническим долгом.
+
+`NestJS` `TypeOrm` `Redis` `RabbitMQ` `AWS RDS` `ReactJS` `Terraform` `Ansible` `AWS`
+
+---
+
+== Fudy OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Эстония · Август 2021 — Октябрь 2022 (1 год 3 мес)</p>
+++++
+
+*Ведущий Backend-разработчик*
+
+* Проектирование и разработка микросервисной архитектуры для Food Delivery продукта, обрабатывающего *10k+ транзакций в день*.
+* Реализация критически важных модулей (Account, Payment, Invoice) и интеграция с платёжными шлюзами (EveryPay, Maksekeskus) и ERP-системой Directo.
+* Оптимизация запросов к PostgreSQL — улучшение производительности ключевых эндпоинтов на *25%*.
+* Внедрение автоматического тестирования в CI-пайплайн.
+
+`NestJS` `TypeOrm` `NATS` `PostgreSQL` `PostGIS` `Google Distance Matrix API` `AWS` `Redis` `Redshift`
+
+---
+
+== Paxful Inc
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">США · Август 2019 — Август 2021 (2 года 1 мес)</p>
+++++
+
+*Team Lead · FinTech*
+
+* Руководство командой *6 разработчиков* при создании PaxfulPay и Paxful ATM в одной из крупнейших P2P-криптобирж мира.
+* Проектирование и интеграция с ключевыми внешними сервисами (HubSpot, WordPress) и платёжными системами.
+* Инициирование и реализация гео-сервиса (скрейпинг + карты криптоматов на базе PostGIS), ставшего самостоятельным продуктом.
+* Документирование архитектуры и требований (C4 model, UML, Confluence); выстраивание коммуникации в распределённой команде.
+
+`PHP 7.4` `Laravel` `Apache Kafka` `PostgreSQL` `PostGIS` `AWS` `Redis` `ReactJS` `Node.js`
+
+---
+
+== Hello Mobile OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Эстония · Октябрь 2016 — Август 2019 (2 года 11 мес)</p>
+++++
+
+*Fullstack-разработчик*
+
+* Разработка API и реализация фич для социальной сети.
+* Разработка фронтенда админ-панели (Angular 2) и бэкенда (Spring Boot).
+* Разработка и поддержка клиентской части веб-приложения.
+* Регулярный мониторинг работоспособности и производительности системы.
+* Разработка серверной части: лента, посты, теги.
+* Документирование и спецификация системных требований.
+
+`Java Spring 5` `Spring Boot` `Hibernate ORM` `PostgreSQL` `PostGIS` `Jenkins CI/CD`
+
+---
+
+== HeBS Digital Inc.
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Эстония · hebsdigital.com · Май 2015 — Август 2016 (1 год 4 мес)</p>
+++++
+
+*Frontend-разработчик*
+
+* Разработка сайтов, модулей бронирования и лендингов для отельной сети с интеграцией систем бронирования и внутреннего API.
+
+`PHP` `MySQL` `Smarty` `JavaScript ES5` `jQuery` `Bootstrap`
+
+---
+
+== Brilliant-Solutions OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Эстония · Август 2011 — Май 2015 (3 года 10 мес)</p>
+++++
+
+*Fullstack-разработчик*
+
+* Разработка SaaS-платформы OnOff для управления виртуальными машинами.
+* Реализация фич, код-ревью, разработка бэкенда (PHP) и фронтенда (Vanilla JS).
+
+`PHP` `PostgreSQL` `HTML` `CSS` `JavaScript ES5` `jQuery` `Bootstrap`

@@ -14,7 +14,7 @@
 * Built Digital Ocean infrastructure from scratch: monitoring, metrics, achieved *99.5% service uptime*.
 * Integrated external APIs and authored architecture documentation for seamless handoff to support teams.
 
-`Node.js` `NestJS` `Redis` `PostgreSQL` `ElasticSearch` `Digital Ocean`
+`Node.js` `NestJS` `Redis` `PostgreSQL` `ElasticSearch` `AWS` Digital Ocean`
 
 ---
 

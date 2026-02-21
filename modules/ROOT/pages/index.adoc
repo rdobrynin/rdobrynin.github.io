@@ -49,7 +49,7 @@ a|
 ====
 *Cloud & DevOps*
 
-AWS (EC2, RDS, S3, Lambda, Fargate) · Digital Ocean · Docker · Terraform · Ansible · GitLab CI/CD
+AWS (EC2, RDS, S3, Lambda, Fargate) · Digital Ocean · Docker · Terraform · Ansible · GitLab CI/CD · Github Actions
 ====
 a|
 ====

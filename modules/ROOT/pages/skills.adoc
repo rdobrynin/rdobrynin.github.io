@@ -1,7 +1,7 @@
 = Skills & Tech Stack
 
 == Backend
-`TypeScript` `Node.js` `NestJS` `Koa` `PHP` `Laravel` `Java Spring` `Spring Boot`
+`TypeScript` `Node.js` `NestJS` `Koa` `PHP` `Laravel`
 
 == Databases
 `PostgreSQL` `PostGIS` `Redis` `ElasticSearch` `Redshift` `MySQL`
@@ -10,10 +10,10 @@
 `RabbitMQ` `Apache Kafka` `NATS`
 
 == Cloud & Infrastructure
-`AWS EC2` `AWS RDS` `AWS S3` `AWS Lambda` `AWS Fargate` `AWS CDN` `AWS Route53` `Digital Ocean` `Docker` `Terraform` `Ansible`
+`AWS EC2` `AWS RDS` `AWS S3` `AWS Lambda` `AWS Fargate` `AWS CDN` `AWS Route53` `Digital Ocean` `Terraform` `Ansible`
 
 == CI/CD & Dev Tools
-`GitLab CI/CD` `Jenkins` `Git` `Linux` `Atlassian Jira`
+`GitLab CI/CD` `Github Actions` `Jenkins` `Linux`
 
 == Frontend
 `ReactJS` `Angular` `Redux/RxJS` `HTML` `CSS` `WebSocket`

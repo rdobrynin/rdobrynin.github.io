@@ -1,0 +1,25 @@
+= Skills & Tech Stack
+
+== Backend
+`TypeScript` `Node.js` `NestJS` `Koa` `PHP` `Laravel` `Java Spring` `Spring Boot`
+
+== Databases
+`PostgreSQL` `PostGIS` `Redis` `ElasticSearch` `Redshift` `MySQL`
+
+== Message Brokers
+`RabbitMQ` `Apache Kafka` `NATS`
+
+== Cloud & Infrastructure
+`AWS EC2` `AWS RDS` `AWS S3` `AWS Lambda` `AWS Fargate` `AWS CDN` `AWS Route53` `Digital Ocean` `Docker` `Terraform` `Ansible`
+
+== CI/CD & Dev Tools
+`GitLab CI/CD` `Jenkins` `Git` `Linux` `Atlassian Jira`
+
+== Frontend
+`ReactJS` `Angular` `Redux/RxJS` `HTML` `CSS` `WebSocket`
+
+== Architecture & Methodology
+`Microservices` `Event-Driven Architecture` `Domain-Driven Design` `C4 Model` `UML` `REST API` `Agile (Scrum)` `OKR`
+
+== Security
+`GDPR` `OWASP Top 10`

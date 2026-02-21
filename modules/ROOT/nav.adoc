@@ -1,0 +1,4 @@
+* xref:index.adoc[About]
+* xref:experience.adoc[Experience]
+* xref:skills.adoc[Skills & Stack]
+* xref:education.adoc[Education]

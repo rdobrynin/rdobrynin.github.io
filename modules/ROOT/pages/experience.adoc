@@ -1,0 +1,98 @@
+= Work Experience
+
+14 years 4 months across Estonia, Spain, USA and Russia.
+
+== Nerdware OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">Estonia · Jul 2024 — Present · <span style="background:rgba(124,255,212,.12);border:1px solid rgba(124,255,212,.3);color:var(--accent);font-size:.58rem;padding:.15rem .5rem;border-radius:2px;font-family:'DM Mono',monospace;letter-spacing:.05em">current</span></p>
+++++
+
+*Lead Developer / Solution Architect*
+
+* Designed and built an *AI-powered scraping service* (n8n + Claude AI) for automated data collection — reduced manual team effort by *~70%*.
+* Built Digital Ocean infrastructure from scratch: monitoring, metrics, achieved *99.5% service uptime*.
+* Integrated external APIs and authored architecture documentation for seamless handoff to support teams.
+
+`Node.js` `NestJS` `Redis` `PostgreSQL` `ElasticSearch` `Digital Ocean`
+
+---
+
+== Unith
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">Spain · unith.ai · Jan 2023 — Jul 2024 (1 yr 7 mo)</p>
+++++
+
+*Engineering Team Lead*
+
+* Led a *5-person team* (backend + frontend) from MVP to production-ready platform.
+* Designed microservice architecture on NestJS + RabbitMQ + AWS with horizontal scaling.
+* Transitioned infrastructure to IaC (Terraform), standardized environments, *cut deploy time by 3×*.
+* Set up GitLab CI/CD pipelines; introduced DDD into legacy codebases to reduce technical debt.
+* Architectural reviews and code reviews across the full team.
+
+`NestJS` `TypeOrm` `Redis` `RabbitMQ` `AWS RDS` `ReactJS` `Terraform` `Ansible` `AWS`
+
+---
+
+== Fudy OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">Estonia · Aug 2021 — Oct 2022 (1 yr 3 mo)</p>
+++++
+
+*Lead Backend Developer*
+
+* Designed microservice architecture for a Food Delivery product handling *10k+ transactions/day*.
+* Implemented critical modules (Account, Payment, Invoice) and integrations with EveryPay, Maksekeskus and ERP Directo.
+* Optimized PostgreSQL queries, improving key endpoint performance by *25%*.
+
+`NestJS` `TypeOrm` `NATS` `PostgreSQL` `PostGIS` `Google Maps API` `AWS` `Redis` `Redshift`
+
+---
+
+== Paxful Inc
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">USA · Aug 2019 — Aug 2021 (2 yr 1 mo)</p>
+++++
+
+*Team Lead · FinTech*
+
+* Led a *6-person team* building PaxfulPay and Paxful ATM at one of the world's largest P2P crypto exchanges.
+* Designed and integrated with key external services (HubSpot, WordPress) and payment systems.
+* Built a *geo-service* (scraping + PostGIS ATM maps) that became a standalone product.
+* Established C4/UML architecture documentation and distributed team communication processes.
+
+`PHP 7.4` `Laravel` `Apache Kafka` `PostgreSQL` `PostGIS` `AWS` `Redis` `ReactJS` `Node.js`
+
+---
+
+== Hello Mobile OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">Estonia · Oct 2016 — Aug 2019 (2 yr 11 mo)</p>
+++++
+
+*Fullstack Developer*
+
+* Developed API and features for a social network; built admin frontend (Angular 2) and Spring Boot backend.
+* Maintained feed, posts, tags services and authored system specifications and requirements documentation.
+
+`Java Spring 5` `Spring Boot` `Hibernate` `PostgreSQL` `PostGIS` `Jenkins`
+
+---
+
+== HeBS Digital & Brilliant-Solutions OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">Estonia · 2011 — 2016 (4 yr 2 mo)</p>
+++++
+
+*Frontend / Fullstack Developer*
+
+* Built hotel booking sites and landing pages with CRS integrations (HeBS Digital).
+* Developed OnOff SaaS — a virtual machine management platform (Brilliant-Solutions).
+
+`PHP` `MySQL` `PostgreSQL` `JavaScript ES5` `jQuery` `Bootstrap`

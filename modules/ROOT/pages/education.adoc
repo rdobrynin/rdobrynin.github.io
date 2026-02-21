@@ -1,0 +1,36 @@
+= Education & Certifications
+
+== Education
+
+=== Kaliningrad State Technical University
+_1998 · Incomplete higher education_
+
+Faculty of Automation & Management · Management
+
+---
+
+== Certifications
+
+=== HackerRank — 2025
+* JavaScript (Basic) Certificate
+* Node.js (Intermediate) Certificate
+* Problem Solving (Basic) Certificate
+* SQL (Intermediate) Certificate
+
+=== Udemy — 2022
+* SQL and PostgreSQL: The Complete Developer's Guide
+* NestJS: The Complete Developer's Guide
+* Node.js, Express, MongoDB & More: The Complete Bootcamp 2022
+* GIT — Mastering Version Control System
+* Meta Back-End Development
+
+=== Oxford & Cambridge — 2001
+OCR Certificate "IT Literacy" · ID: 8182581/210177
+
+---
+
+== Recommendations
+
+*Boris Salapa* — Product Manager @ Unith
+
+Available upon request.

@@ -4,13 +4,13 @@
 `TypeScript` `Node.js` `NestJS` `Koa` `PHP` `Laravel`
 
 == Databases
-`PostgreSQL` `PostGIS` `Redis` `ElasticSearch` `Redshift` `MySQL`
+`PostgreSQL` `PostGIS` `Redis` `Redshift` `MySQL`
 
 == Message Brokers
 `RabbitMQ` `Apache Kafka` `NATS`
 
 == Cloud & Infrastructure
-`AWS EC2` `AWS RDS` `AWS S3` `AWS Lambda` `AWS Fargate` `AWS CDN` `AWS Route53` `Digital Ocean` `Terraform` `Ansible`
+`AWS EC2` `AWS RDS` `AWS S3` `AWS Lambda` `AWS Fargate` `AWS CDN` `AWS Route53` `Digital Ocean` `Terraform` `Ansible`, `ElasticSearch`
 
 == CI/CD & Dev Tools
 `GitLab CI/CD` `Github Actions` `Jenkins` `Linux`

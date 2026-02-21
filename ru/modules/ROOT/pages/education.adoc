@@ -1,0 +1,36 @@
+= Образование и сертификаты
+
+== Образование
+
+=== Калининградский государственный технический университет
+_1998 · Неоконченное высшее_
+
+Факультет автоматизации производства и управления · Менеджмент
+
+---
+
+== Сертификаты
+
+=== HackerRank — 2025
+* link:https://www.hackerrank.com/certificates/4c6332ccfef1[JavaScript (Basic) Certificate, window=_blank]
+* link:https://www.hackerrank.com/certificates/52c9cef67e1d[Node.js (Intermediate) Certificate, window=_blank]
+* link:https://www.hackerrank.com/certificates/12a932c07af4[Problem Solving (Basic) Certificate, window=_blank]
+* link:https://www.hackerrank.com/certificates/415b83a8649a[SQL (Intermediate) Certificate, window=_blank]
+
+=== Udemy и Coursera — 2022
+* https://www.udemy.com/certificate/UC-012ead8b-a7fe-4d5d-8dee-9558133c3ccb[SQL and PostgreSQL: The Complete Developer's Guide^]
+* https://www.udemy.com/certificate/UC-b1fc3b84-0931-4e3b-8278-24a36d26c673[NestJS: The Complete Developer's Guide^]
+* https://www.udemy.com/certificate/UC-e62f581b-9f3b-4e70-8dc8-4997a3a6ab51[Node.js, Express, MongoDB & More: The Complete Bootcamp 2022^]
+* https://www.coursera.org/account/accomplishments/verify/ZYMPAPHSJ4D2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course[GIT — Mastering Version Control System^]
+* https://www.coursera.org/account/accomplishments/verify/CYHQA8W54RLM?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course[Meta Back-End Development^]
+
+=== Oxford & Cambridge — 2001
+OCR Certificate «IT Literacy» · ID: 8182581/210177
+
+---
+
+== Рекомендации
+
+*Boris Salapa* — Product Manager @ Unith
+
+По запросу.

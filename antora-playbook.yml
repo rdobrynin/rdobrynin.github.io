@@ -1,15 +1,15 @@
 site:
   title: Roman Dobrynin — CV
   url: https://rdobrynin.github.io
-  start_page: cv::index.adoc
+  start_page: en::index.adoc
 
 content:
   sources:
     - url: .
       branches: HEAD
-      exclude:
-        - README.adoc
-        - README.md
+      start_paths:
+        - en
+        - ru
 
 ui:
   bundle:

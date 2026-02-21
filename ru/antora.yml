@@ -1,0 +1,11 @@
+name: ru
+title: Добрынин Роман — CV
+version: ~
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    page-lang: ru
+    page-lang-other-label: EN
+    page-lang-other-url: /en/index.html

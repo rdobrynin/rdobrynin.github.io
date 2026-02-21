@@ -22,7 +22,7 @@
 
 == About
 
-Experienced engineer and Team Lead with 14+ years building high-load systems. Specialized in microservice architecture design on Node.js/NestJS, complex FinTech integrations (payment gateways, ERP), and distributed systems optimization. Successfully migrate infrastructure to IaC principles (Terraform/AWS) and implement Event-Driven Architecture (EDA) and Domain-Driven Design (DDD). Proven track record managing distributed teams (up to 15 people) and building engineering processes from scratch in European product companies.
+Experienced engineer and Team Lead with 14+ years building high-load systems. Specialized in microservice architecture design on Node.js/NestJS, complex FinTech integrations and distributed systems optimization. Successfully migrate infrastructure to IaC principles (Terraform/AWS) and implement Event-Driven Architecture (EDA) and Domain-Driven Design (DDD). Proven track record managing distributed teams (up to 15 people) and building engineering processes from scratch in European product companies.
 
 [quote]
 ____

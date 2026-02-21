@@ -16,16 +16,14 @@
     <a href="https://github.com/rdobrynin" target="_blank" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>github/rdobrynin</a>
     <a href="https://linkedin.com/in/rdobrynin" target="_blank" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>linkedin/rdobrynin</a>
     <a href="https://set.ki/5YiHqvs" target="_blank" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>setka profile</a>
-    <span style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);font-family:'Montserrat',sans-serif"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>Saint Petersburg · 🇷🇺 🇪🇪</span>
+    <span style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);font-family:'Montserrat',sans-serif"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>Saint Petersburg</span>
   </div>
 </div>
 ++++
 
 == About
 
-Experienced engineer and Team Lead with *14+ years* specializing in high-load microservice systems, FinTech integrations (payment gateways, ERP), and distributed team leadership up to 15 people.
-
-Passionate about Infrastructure as Code, Event-Driven Architecture, and Domain-Driven Design. I successfully lead teams from zero to production across European product companies. Open for relocation, have work permit in Estonia.
+Experienced engineer and Team Lead with 14+ years building high-load systems. Specialized in microservice architecture design on Node.js/NestJS, complex FinTech integrations (payment gateways, ERP), and distributed systems optimization. Successfully migrate infrastructure to IaC principles (Terraform/AWS) and implement Event-Driven Architecture (EDA) and Domain-Driven Design (DDD). Proven track record managing distributed teams (up to 15 people) and building engineering processes from scratch in European product companies.
 
 [quote]
 ____
@@ -58,7 +56,7 @@ a|
 ====
 *Databases & Messaging*
 
-PostgreSQL · Redis · ElasticSearch · PostGIS · Redshift · RabbitMQ · Kafka · NATS
+PostgreSQL · PostGIS · MySQL · Redis · ElasticSearch · Redshift · RabbitMQ · Kafka · NATS
 ====
 a|
 ====
@@ -70,7 +68,7 @@ a|
 ====
 *Standards*
 
-GDPR · OWASP Top 10 · Code Review · Architecture Review · Technical documentation
+GDPR · OWASP Top 10 · Code Review · Architecture Review · Technical documentation (Jira, Antora)
 ====
 |===
 
@@ -78,5 +76,5 @@ GDPR · OWASP Top 10 · Code Review · Architecture Review · Technical document
 
 [cols="1,1,1",frame=none,grid=none,stripes=none]
 |===
-| *Russian* — Native | *English* — C1 Advanced | *Estonian* — A2 Elementary
+| *Russian* — Native | *English* — B2 Upper-intermediate | *Estonian* — A2 Elementary
 |===

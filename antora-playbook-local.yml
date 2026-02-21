@@ -3,9 +3,6 @@ site:
   url: https://rdobrynin.github.io
   start_page: cv::index.adoc
 
-urls:
-  redirect-facility: static
-
 content:
   sources:
     - url: .

@@ -2,11 +2,6 @@ site:
   title: Roman Dobrynin — CV
   url: https://rdobrynin.github.io
   start_page: cv::index.adoc
-  keys:
-    page-pagination: false
-
-urls:
-  redirect-facility: static
 
 content:
   sources:

@@ -36,8 +36,22 @@ jobs:
       - name: Generate Antora site
         run: npx antora antora-playbook.yml
 
-      - name: Add .nojekyll to prevent GitHub Jekyll processing
+      - name: Add .nojekyll
         run: touch build/site/.nojekyll
+
+      - name: Add root index.html redirect
+        run: |
+          cat > build/site/index.html << 'HTML'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="refresh" content="0; url=cv/index.html">
+            <link rel="canonical" href="cv/index.html">
+          </head>
+          <body>Redirecting...</body>
+          </html>
+          HTML
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

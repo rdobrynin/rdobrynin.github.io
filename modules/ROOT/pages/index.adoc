@@ -75,5 +75,5 @@ GDPR · OWASP Top 10 · Code Review · Architecture Review · Technical document
 
 [cols="1,1,1",frame=none,grid=none,stripes=none]
 |===
-| *Russian* — Native | *English* — B2 Upper-intermediate | *Estonian* — A2 Elementary
+| *Russian* — Native language | *English* — B2 Upper-intermediate | *Estonian* — A2 Elementary
 |===

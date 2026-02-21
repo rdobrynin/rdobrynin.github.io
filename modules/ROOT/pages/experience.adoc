@@ -30,7 +30,7 @@
 * Designed microservice architecture on NestJS + RabbitMQ + AWS with horizontal scaling.
 * Integration API with LLM RAG services via message brokers
 * Transitioned infrastructure to IaC (Terraform), standardized environments, *cut deploy time by 3×*.
-* Set up GitLab CI/CD pipelines; introduced DDD into legacy codebases to reduce technical debt.
+* Cooking GitLab CI/CD pipelines; introduced DDD into legacy codebases to reduce technical debt.
 * Architectural reviews and code reviews across the full team.
 
 `NestJS` `TypeOrm` `Redis` `RabbitMQ` `AWS RDS` `ReactJS` `Terraform` `Ansible` `AWS`

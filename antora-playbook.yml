@@ -1,26 +1,22 @@
+site:
+  title: Roman Dobrynin — CV
+  url: https://rdobrynin.github.io
+  start_page: cv::index.adoc
 
-  Antora playbook · YML
-    Copy
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      exclude:
+        - README.adoc
+        - README.md
+        - CHANGELOG.adoc
+        - LICENSE.adoc
 
-  site:
-    title: Roman Dobrynin — CV
-    url: https://rdobrynin.github.io
-    start_page: cv::index.adoc
+ui:
+  bundle:
+    url: ./ui-bundle
+    snapshot: true
 
-  content:
-    sources:
-      - url: .
-        branches: HEAD
-        exclude:
-          - README.adoc
-          - README.md
-          - CHANGELOG.adoc
-          - LICENSE.adoc
-
-  ui:
-    bundle:
-      url: ./ui-bundle.zip
-      snapshot: true
-
-  output:
-    dir: build/site
+output:
+  dir: build/site

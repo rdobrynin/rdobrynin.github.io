@@ -46,7 +46,7 @@
 *Lead Backend Developer*
 
 * Designed microservice architecture for a Food Delivery product handling *10k+ transactions/day*.
-* Implemented critical modules (Account, Payment, Invoice) and integrations RBAC with billing providers Stripe/EveryPay, Maksekeskus and ERP Directo.
+* Implemented main services (Account, Payment, Invoice) and integrations RBAC with billing providers Stripe/EveryPay, Maksekeskus and ERP Directo.
 * Optimized PostgreSQL queries, improving key endpoint performance by *25%*.
 
 `NestJS` `TypeOrm` `NATS` `PostgreSQL` `PostGIS` `Google Maps API` `AWS` `Redis` `Redshift`

@@ -7,15 +7,10 @@ content:
   sources:
     - url: .
       branches: HEAD
-      exclude:
-        - README.adoc
-        - README.md
-        - CHANGELOG.adoc
-        - LICENSE.adoc
 
 ui:
   bundle:
-    url: ./ui-bundle
+    url: ./ui-bundle.zip
     snapshot: true
 
 output:

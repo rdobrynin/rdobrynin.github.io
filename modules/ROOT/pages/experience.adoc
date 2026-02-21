@@ -18,7 +18,7 @@
 
 ---
 
-== Unith
+== Unith AI
 
 ++++
 <p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">Spain · unith.ai · Jan 2023 — Jul 2024 (1 yr 7 mo)</p>
@@ -28,6 +28,7 @@
 
 * Led a *5-person team* (backend + frontend) from MVP to production-ready platform.
 * Designed microservice architecture on NestJS + RabbitMQ + AWS with horizontal scaling.
+* Integration API with LLM RAG services via message brokers
 * Transitioned infrastructure to IaC (Terraform), standardized environments, *cut deploy time by 3×*.
 * Set up GitLab CI/CD pipelines; introduced DDD into legacy codebases to reduce technical debt.
 * Architectural reviews and code reviews across the full team.

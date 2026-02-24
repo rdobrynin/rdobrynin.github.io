@@ -1,6 +1,5 @@
 * xref:index.adoc[About]
 * xref:experience.adoc[Experience]
-* xref:career.adoc[Career History]
-* xref:skills.adoc[Skills and Stack]
-* xref:open_source_projects.adoc[Open Source Projects]
+* xref:skills.adoc[Skills]
+* xref:projects.adoc[Projects]
 * xref:education.adoc[Education]

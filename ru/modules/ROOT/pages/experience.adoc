@@ -10,11 +10,15 @@
 
 *Ведущий разработчик / Архитектор решения*
 
+* Проектирование и внедрение RAG-систем (Retrieval-Augmented Generation) с использованием pgvector и локальных LLM
+* Интеграция AI-моделей в бэкенд
+* Построение высоконагруженных API на Fastify с валидацией
+* Контейнеризация микросервисов
 * Проектирование и реализация скрейпинг-сервиса с интеграцией AI (n8n, Claude AI) для автоматизации сбора данных — сократил ручной труд команды на *~70%*.
 * Выстраивание инфраструктуры на Digital Ocean с нуля: мониторинг, метрики, обеспечение uptime на уровне *99.5%*.
 * Интеграция внешних API и документирование архитектуры для передачи в поддержку.
 
-`Node.js` `NestJS` `Redis` `PostgreSQL` `ElasticSearch` `Digital Ocean`
+`Node.js` `NestJS` `Fastify` `Redis` `PostgreSQL` `ElasticSearch` `Digital Ocean`
 
 ---
 
@@ -113,5 +117,20 @@
 
 * Разработка SaaS-платформы OnOff для управления виртуальными машинами.
 * Реализация фич, код-ревью, разработка бэкенда (PHP) и фронтенда (Vanilla JS).
+
+`PHP` `PostgreSQL` `HTML` `CSS` `JavaScript ES5` `jQuery` `Bootstrap`
+
+---
+
+== Brilliant-Solutions OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Эстония · Август 2011 — Май 2015 (3 года 10 мес)</p>
+++++
+
+*Fullstack-разработчик*
+
+* SaaS-платформа OnOff для управления виртуальными машинами.
+* Реализация фич, код-ревью, PHP бэкенд и Vanilla JS фронтенд.
 
 `PHP` `PostgreSQL` `HTML` `CSS` `JavaScript ES5` `jQuery` `Bootstrap`

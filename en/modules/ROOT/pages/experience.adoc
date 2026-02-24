@@ -10,11 +10,14 @@
 
 *Lead Developer / Solution Architect*
 
+* Spearheaded the design and rollout of RAG-based systems incorporating pgvector and on‑premise LLMs
+* Orchestrated the integration of AI models into existing backend infrastructures
+* Engineered scalable, high‑performance APIs on Fastify with comprehensive validation layers
 * Designed and built an *AI-powered scraping service* (n8n + Claude AI) for automated data collection — reduced manual team effort by *~70%*.
 * Built Digital Ocean infrastructure from scratch: monitoring, metrics, achieved *99.5% service uptime*.
 * Integrated external APIs and authored architecture documentation for seamless handoff to support teams.
 
-`Node.js` `NestJS` `Redis` `PostgreSQL` `ElasticSearch` `Digital Ocean`
+`Node.js` `NestJS` `Fastify` `Redis` `PostgreSQL` `ElasticSearch` `Digital Ocean`
 
 ---
 
@@ -96,3 +99,18 @@
 * Developed OnOff SaaS — a virtual machine management platform (Brilliant-Solutions).
 
 `PHP` `MySQL` `PostgreSQL` `JavaScript ES5` `jQuery` `Bootstrap`
+
+---
+
+== Brilliant-Solutions OÜ
+
+++++
+<p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Estonia · Aug 2011 — May 2015 (3 yr 10 mo)</p>
+++++
+
+*Fullstack Developer*
+
+* Developed OnOff SaaS platform for virtual machine management.
+* Implemented features, conducted code reviews, and wrote backend (PHP) and frontend (Vanilla JS) code.
+
+`PHP` `PostgreSQL` `HTML` `CSS` `JavaScript ES5` `jQuery` `Bootstrap`

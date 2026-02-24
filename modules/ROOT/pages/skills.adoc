@@ -1,7 +1,7 @@
 = Skills & Tech Stack
 
 == Backend
-`TypeScript` `Node.js` `NestJS` `Koa` `PHP` `Laravel` `Java Spring` `Spring Boot`
+`TypeScript` `Node.js` `NestJS` `Fastify` `PHP` `Laravel` `Java Spring` `Spring Boot`
 
 == Databases
 `PostgreSQL` `PostGIS` `Redis` `ElasticSearch` `Redshift` `MySQL`

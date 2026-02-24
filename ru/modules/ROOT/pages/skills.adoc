@@ -4,7 +4,7 @@
 `TypeScript` `Node.js` `NestJS` `Fastify` `PHP` `Laravel` `Java Spring` `Spring Boot`
 
 == Базы данных
-`PostgreSQL` `PostGIS` `Redis` `ElasticSearch` `Redshift` `MySQL`
+`PostgreSQL` `PostGIS` `Pgvector` `Redis` `ElasticSearch` `Redshift` `MySQL`
 
 == Брокеры сообщений
 `RabbitMQ` `Apache Kafka` `NATS`

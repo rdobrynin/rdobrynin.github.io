@@ -1,7 +1,7 @@
 = Навыки и стек технологий
 
 == Бэкенд
-`TypeScript` `Node.js` `NestJS` `Koa` `PHP` `Laravel` `Java Spring` `Spring Boot`
+`TypeScript` `Node.js` `NestJS` `Fastify` `PHP` `Laravel` `Java Spring` `Spring Boot`
 
 == Базы данных
 `PostgreSQL` `PostGIS` `Redis` `ElasticSearch` `Redshift` `MySQL`

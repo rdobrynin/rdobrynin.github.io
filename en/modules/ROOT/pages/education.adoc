@@ -11,7 +11,7 @@
 === Udemy and Coursera — 2022
 * https://www.udemy.com/certificate/UC-012ead8b-a7fe-4d5d-8dee-9558133c3ccb[SQL and PostgreSQL: The Complete Developer's Guide^]
 * https://www.udemy.com/certificate/UC-b1fc3b84-0931-4e3b-8278-24a36d26c673[NestJS: The Complete Developer's Guide^]
-* https://www.udemy.com/certificate/UC-e62f581b-9f3 b-4e70-8dc8-4997a3a6ab51[Node.js, Express, MongoDB & More: The Complete Bootcamp 2022^]
+* https://www.udemy.com/certificate/UC-e62f581b-9f3b-4e70-8dc8-4997a3a6ab51[Node.js, Express, MongoDB & More: The Complete Bootcamp 2022^]
 * https://www.coursera.org/account/accomplishments/verify/ZYMPAPHSJ4D2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course[GIT — Mastering Version Control System^]
 * https://www.coursera.org/account/accomplishments/verify/CYHQA8W54RLM?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course[Meta Back-End Development^]
 

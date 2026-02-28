@@ -68,7 +68,7 @@
 * Built a *geo-service* (scraping + PostGIS ATM maps) that became a standalone product.
 * Established C4/UML architecture documentation and distributed team communication processes.
 
-`PHP 7.4` `Laravel` `Apache Kafka` `PostgreSQL` `PostGIS` `AWS` `Redis` `ReactJS` `Node.js`
+`PHP 7.4` `Laravel` `Apache Kafka` `PostgreSQL` `PostGIS` `AWS` `Redis` `ReactJS` `Node.js` `AML/KYC`
 
 ---
 

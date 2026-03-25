@@ -8,7 +8,7 @@
 <p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Эстония · Июль 2024 — настоящее время · <span style="background:rgba(124,255,212,.12);border:1px solid rgba(124,255,212,.3);color:var(--accent);font-size:.58rem;padding:.15rem .5rem;border-radius:2px;letter-spacing:.05em">сейчас</span></p>
 ++++
 
-*Ведущий разработчик / Архитектор решения*
+*Ведущий разработчик*
 
 * Проектирование и внедрение RAG-систем (Retrieval-Augmented Generation) с использованием pgvector и локальных LLM
 * Интеграция AI-моделей в бэкенд
@@ -28,7 +28,7 @@
 <p style="font-size:.7rem;color:var(--dim);font-family:'Montserrat',sans-serif;margin-bottom:.5rem">Испания · unith.ai · Январь 2023 — Июль 2024 (1 год 7 мес)</p>
 ++++
 
-*Руководитель группы разработки*
+*Lead Backend Developer*
 
 * Руководство командой *5 человек* (бэкенд + фронтенд) — от MVP до продакшена.
 * Проектирование и внедрение микросервисной архитектуры на NestJS + RabbitMQ + AWS с горизонтальным масштабированием.

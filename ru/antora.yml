@@ -9,3 +9,4 @@ asciidoc:
     page-lang: ru
     page-lang-other-label: EN
     page-lang-other-url: /en/index.html
+    imagesdir: ../../assets/images

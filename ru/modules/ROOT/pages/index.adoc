@@ -7,7 +7,7 @@
     Роман <em style="font-style:italic;color:var(--accent)">Добрынин</em>
   </h1>
   <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:400;color:var(--dim);margin-top:1.2rem;letter-spacing:.04em">
-    Team Lead &amp; Solution Architect · Node.js · 14+ лет опыта
+    Software Engineer · 14+ лет опыта
   </p>
   <div style="display:flex;flex-wrap:wrap;gap:.4rem 1.8rem;margin-top:1.8rem;padding-top:1.8rem;border-top:1px solid var(--line)">
     <a href="mailto:roman.dobrynin@gmail.com" style="display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--dim);text-decoration:none;font-family:'Montserrat',sans-serif" onmouseover="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--accent')" onmouseout="this.style.color=getComputedStyle(document.documentElement).getPropertyValue('--dim')"><span style="width:4px;height:4px;border-radius:50%;background:var(--accent);display:inline-block;flex-shrink:0"></span>roman.dobrynin@gmail.com</a>

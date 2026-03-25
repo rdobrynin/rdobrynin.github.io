@@ -8,7 +8,7 @@
 <p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">Estonia · Jul 2024 — Present · <span style="background:rgba(124,255,212,.12);border:1px solid rgba(124,255,212,.3);color:var(--accent);font-size:.58rem;padding:.15rem .5rem;border-radius:2px;font-family:'DM Mono',monospace;letter-spacing:.05em">current</span></p>
 ++++
 
-*Lead Developer / Solution Architect*
+*Lead Developer*
 
 * Spearheaded the design and rollout of RAG-based systems incorporating pgvector and on‑premise LLMs
 * Orchestrated the integration of AI models into existing backend infrastructures
@@ -27,7 +27,7 @@
 <p style="font-size:.7rem;color:var(--dim);font-family:'DM Mono',monospace;margin-bottom:.5rem">Spain · unith.ai · Jan 2023 — Jul 2024 (1 yr 7 mo)</p>
 ++++
 
-*Engineering Team Lead*
+*Lead Backend Developer*
 
 * Led a *5-person team* (backend + frontend) from MVP to production-ready platform.
 * Designed microservice architecture on NestJS + RabbitMQ + AWS with horizontal scaling.
